@@ -1,0 +1,7 @@
+if SHIELD_BOLT
+    config ZMK_KEYBOARD_NAME
+        default "BOLT"
+
+    config ZMK_BATTERY_REPORTING
+        default y
+endif
