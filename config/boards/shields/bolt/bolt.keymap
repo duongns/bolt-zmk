@@ -16,51 +16,42 @@
 
         BT_CLEAR {
             bindings = <&bt BT_CLR>;
-            key-positions = <29 5 0>;
-            layers = <0>;
-            timeout-ms = <50>;
+            key-positions = <29 0>;
         };
 
         BT_SELECT_1 {
             bindings = <&bt BT_SEL 1>;
-            key-positions = <29 5 1>;
-            layers = <0>;
-            timeout-ms = <50>;
+            key-positions = <29 1>;
         };
 
         BT_SELECT_2 {
             bindings = <&bt BT_SEL 2>;
-            key-positions = <29 5 2>;
-            layers = <0>;
-            timeout-ms = <50>;
+            key-positions = <29 2>;
         };
 
         BT_SELECT_3 {
             bindings = <&bt BT_SEL 3>;
-            key-positions = <29 5 3>;
-            layers = <0>;
-            timeout-ms = <50>;
+            key-positions = <29 3>;
         };
 
         VOL_UP {
             bindings = <&kp C_VOLUME_UP>;
             key-positions = <28 7>;
-            layers = <0>;
-            timeout-ms = <50>;
         };
 
         VOL_DOWN {
-            bindings = <&kp C_VOLUME_UP>;
+            bindings = <&kp C_VOLUME_DOWN>;
             key-positions = <28 15>;
-            layers = <0>;
-            timeout-ms = <50>;
         };
 
         VOL_MUTE {
-            bindings = <&kp C_VOLUME_UP>;
+            bindings = <&kp C_MUTE>;
             key-positions = <28 32>;
-            layers = <0>;
-            timeout-ms = <50>;
+        };
+
+        BOOTLOADER {
+            bindings = <&bootloader>;
+            key-positions = <0 29 36>;
         };
     };
 
